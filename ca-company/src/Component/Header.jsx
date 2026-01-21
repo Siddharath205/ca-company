@@ -24,7 +24,7 @@ export default function Navbar() {
         </nav>
 
         {/* CTA */}
-        <button className="flex items-center gap-3 bg-[#3117DF] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#0a175a] transition">
+        <button className="flex items-center gap-3 bg-[#3117DF] text-white px-9 py-4 rounded-lg font-medium hover:bg-[#0a175a] transition">
           Let’s Talk
           
         </button>

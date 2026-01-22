@@ -11,9 +11,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
          <img src="/logo.svg" alt="Company Logo" />
-          {/* <span className="text-xl font-semibold text-[#0b1c6d]">
-            logoipsum
-          </span> */}
+          
         </div>
 
         {/* Menu */}
@@ -22,7 +20,7 @@ export default function Navbar() {
           <a href="" className="hover:text-[#0b1c6d]" onClick={() => Navigate('/ServiceDetail')}>Services</a>
           <a href="" className="hover:text-[#0b1c6d]" onClick={() => Navigate('/Company')}>Company</a>
           <a href="" className="hover:text-[#0b1c6d]" onClick={() => Navigate('/Resources')}>Resources</a>
-          <a href="" className="hover:text-[#0b1c6d]">Contact</a>
+          <a href="" className="hover:text-[#0b1c6d]" onClick={() => Navigate('/Contact')}>Contact</a>
         </nav>
 
         {/* CTA */}

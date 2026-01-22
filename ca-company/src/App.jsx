@@ -10,6 +10,7 @@ import Applayout from './Component/AppLayout.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Resources from './Component/Resources.jsx'
 import Company from './Component/Company.jsx'
+import Contact from './Component/Contact.jsx'
 
 function App() {
   const router = createBrowserRouter([
@@ -32,7 +33,11 @@ function App() {
         {
           path: '/Company',
           element: <Company />
-        }           
+        },
+        {
+          path: '/Contact',
+          element: <Contact />
+        }
       ]
     }
   ])

@@ -5,16 +5,46 @@ import './App.css'
 import Header from './Component/Header.jsx'
 import React from 'react'
 import Home from './Component/Home.jsx'
+import ServiceDetail from './Component/ServiceDetail.jsx'
+import Applayout from './Component/AppLayout.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Resources from './Component/Resources.jsx'
+import Company from './Component/Company.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Applayout />,
+      children: [
+        {
+          path: '/',
+          element: <Home />
+        },
+        {
+          path: '/ServiceDetail',
+          element: <ServiceDetail />
+        },
+        {
+          path: '/Resources',
+          element: <Resources />
+        },
+        {
+          path: '/Company',
+          element: <Company />
+        }           
+      ]
+    }
+  ])
   return (
     <>
-      <Header />
-      <Home />
+      <RouterProvider router={router} />
+      {/* <Header />
+      { <Home /> }
+      <ServiceDetail /> */}
     </>
   )
 }
 
 export default App
+

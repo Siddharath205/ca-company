@@ -108,7 +108,7 @@ export default function LitigationServicePage() {
                             <div className="absolute inset-0 bg-gradient-to-tr from-indigo-200/40 to-purple-200/40 rounded-3xl blur-3xl"></div>
                             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-200/60">
                                 <img
-                                    src="/api/placeholder/600/400"
+                                    src="comp.svg"
                                     alt="Professional working on laptop"
                                     className="w-full h-full object-cover"
                                 />
@@ -177,7 +177,7 @@ export default function LitigationServicePage() {
                             >
                                 <div className="aspect-[4/3] overflow-hidden">
                                     <img
-                                        src="/api/placeholder/400/300"
+                                        src="tax.svg"
                                         alt="Service illustration"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />

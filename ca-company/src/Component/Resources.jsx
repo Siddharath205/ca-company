@@ -6,73 +6,73 @@ export default function Resources() {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+       image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+       image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+       image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     },
     {
       category: 'Finance',
       title: 'Business Setup & Expansion',
       description: 'Strategic tax management designed to maximize savings and ensure full compliance.',
-      image: '/api/placeholder/400/300'
+      image: 'caltax.svg'
     }
   ];
 
@@ -132,7 +132,7 @@ export default function Resources() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="overflow-hidden">
                 <img 
-                  src="/api/placeholder/600/400" 
+                  src="caltax.svg" 
                   alt="Business setup"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />

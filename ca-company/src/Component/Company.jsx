@@ -104,18 +104,18 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50/30 via-white to-pink-50/20">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm">
+      <nav className="bg-[#ffffff] shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-indigo-700 rounded-md flex items-center justify-center">
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 2L3 7v11h5v-6h4v6h5V7l-7-5z"/>
+                  <path d="M10 2L3 7v11h5v-6h4v6h5V7l-7-5z" />
                 </svg>
               </div>
               <span className="text-xl font-bold text-gray-900">logoipsum®</span>
             </div>
-            
+
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-sm font-medium text-gray-700 hover:text-indigo-600">Home</a>
               <a href="#services" className="text-sm font-medium text-gray-700 hover:text-indigo-600">Services</a>
@@ -132,7 +132,7 @@ export default function AboutUs() {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 bg-[#FEEDEF]">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -143,13 +143,20 @@ export default function AboutUs() {
                 Your Trusted Partner in the CA Journey Since 2015
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                At M/S. Jhalani Associates & Company, we are proudly your universal traditional and versatile legal team specialized in tax litigations and its laws. The 7 partners supported are qualified Senior executives associated under the statutory requirements under the applicable Indian laws (such as is straight obligations) and maintain meticulous tax returns to this front. Read what measures has implemented.
+                At M/S. Jhalani Associates & Company, we are proudly your universal
+                traditional and versatile legal team specialized in tax litigations and
+                its laws. The 7 partners supported are qualified Senior executives associated under
+                the statutory requirements under the applicable Indian laws (such as is straight obligations)
+                and maintain meticulous tax returns to this front. Read what measures has implemented.
               </p>
             </div>
-            
+
             <div>
               <p className="text-gray-600 leading-relaxed">
-                At M/S. Jhalani Associates & Company, we are proudly your universal traditional and versatile legal team specialized in tax litigations and its laws. The 7 partners supported are qualified Senior executives associated under the statutory requirements under the applicable Indian laws (such as is straight obligations) and maintain meticulous tax returns to this front. Read what measures has implemented.
+                At M/S. Jhalani Associates & Company, we are proudly your universal traditional and versatile legal
+                team specialized in tax litigations and its laws. The 7 partners supported are qualified Senior executives
+                associated under the statutory requirements under the applicable Indian laws (such as is straight obligations)
+                and maintain meticulous tax returns to this front. Read what measures has implemented.
               </p>
             </div>
           </div>
@@ -157,7 +164,7 @@ export default function AboutUs() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 px-6">
+      <section className="py-12 px-6 bg-[#FEEDEF]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
@@ -170,81 +177,109 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Why We Are Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">Why We Are</h3>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                We aim at, M/S Jhalani Associates & Company, our calling each member understands the complex requirements posed by diverse organizational structures, industries, regulatory requirements or industries.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                However, in such case the company is held or individuals, can we believe in straightforward obligations towards clients is to align with our team in capabilities and methods in detail.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                In short, you can a short aligned.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-              <img 
-                src="/api/placeholder/600/400" 
-                alt="Team working"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+      {/* Wrapper with Background */}
+      <div className="bg-[#FEEDEF]">
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden order-2 lg:order-1">
-              <img 
-                src="/api/placeholder/600/400" 
-                alt="Team collaboration"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            
-            <div className="order-1 lg:order-2">
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                In short, It take us as a MBA or ex-students of Judges against of which can a state or city.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                In short, it take us as a MBA or ex-students of Judges against of which can a state or city.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                In short, it take us as a MBA or ex-students of Judges against of which can a state or city.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        {/* Why We Are Section */}
+        <section className="py-16 px-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
 
-      {/* Vision Section */}
-      <section className="py-16 px-6 bg-pink-50/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                In short, It take us as a MBA or ex-students of Judges against of which can a state or city.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                In short, it take us as a MBA or ex-students of Judges against of which can a state or city.
-              </p>
+              {/* Text */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  Why We Are
+                </h3>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  At M/S Jhalani Associates & Company, each member understands the
+                  complex requirements posed by diverse organizational structures,
+                  industries, and regulatory frameworks.
+                </p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  We believe in straightforward obligations towards our clients by
+                  aligning expertise, capability, and methodical execution.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  In short, we deliver clarity, compliance, and confidence.
+                </p>
+              </div>
+
+              {/* Image */}
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+                <img
+                  src="/api/placeholder/600/400"
+                  alt="Team working"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
-            
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-              <img 
-                src="/api/placeholder/600/400" 
-                alt="Vision"
-                className="w-full h-full object-cover"
-              />
+
+            {/* Our Mission (Text Left, Image Right) */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+              {/* Text */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  Our Mission
+                </h3>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  Our mission is to provide ethical, reliable, and professional
+                  advisory services rooted in strong academic and practical
+                  foundations.
+                </p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  We aim to support individuals, businesses, and institutions with
+                  precise guidance and long-term value.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  We focus on trust, transparency, and excellence.
+                </p>
+              </div>
+
+              {/* Image */}
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+                <img
+                  src="/api/placeholder/600/400"
+                  alt="Our Mission"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* Our Vision Section (Image Left, Text Right) */}
+        <section className="py-16 px-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+              {/* Image */}
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+                <img
+                  src="/api/placeholder/600/400"
+                  alt="Our Vision"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Text */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  Our Vision
+                </h3>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  Our vision is to be a trusted professional firm recognized for
+                  integrity, expertise, and client-centric solutions.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  We aspire to create lasting impact by enabling informed decisions
+                  and sustainable growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
       {/* Core & Advisory Team */}
       <section className="py-16 px-6">
@@ -257,7 +292,7 @@ export default function AboutUs() {
               <div key={index} className="bg-white rounded-2xl shadow-lg p-8">
                 <div className="grid md:grid-cols-[200px,1fr] gap-8">
                   <div className="flex flex-col items-center">
-                    <img 
+                    <img
                       src={member.image}
                       alt={member.name}
                       className="w-32 h-32 rounded-full object-cover mb-4"
@@ -265,7 +300,7 @@ export default function AboutUs() {
                     <h4 className="text-xl font-bold text-gray-900 text-center">{member.name}</h4>
                     <p className="text-sm text-gray-600 text-center mt-2">{member.role}</p>
                   </div>
-                  
+
                   <div className="flex items-center">
                     <p className="text-gray-600 leading-relaxed">{member.bio}</p>
                   </div>
@@ -286,7 +321,7 @@ export default function AboutUs() {
               <div className="grid grid-cols-2 gap-6">
                 {salesPartners.map((partner, index) => (
                   <div key={index} className="text-center">
-                    <img 
+                    <img
                       src={partner.image}
                       alt={partner.name}
                       className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
@@ -304,7 +339,7 @@ export default function AboutUs() {
               <div className="grid grid-cols-2 gap-6">
                 {salesPartners.map((partner, index) => (
                   <div key={index} className="text-center">
-                    <img 
+                    <img
                       src={partner.image}
                       alt={partner.name}
                       className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
@@ -328,7 +363,7 @@ export default function AboutUs() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {testimonials.map((testimonial, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-white p-6 rounded-xl border-2 border-dashed border-gray-300"
               >
@@ -373,35 +408,35 @@ export default function AboutUs() {
                     type="text"
                     placeholder="Name"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="px-4 py-3 rounded-lg border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none"
                   />
                   <input
                     type="email"
                     placeholder="Email"
                     value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="px-4 py-3 rounded-lg border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none"
                   />
                 </div>
-                
+
                 <input
                   type="tel"
                   placeholder="Phone"
                   value={formData.phone}
-                  onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none"
                 />
-                
+
                 <textarea
                   placeholder="Message"
                   value={formData.message}
-                  onChange={(e) => setFormData({...formData, message: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   rows="5"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none resize-none"
                 />
-                
-                <button 
+
+                <button
                   type="submit"
                   className="w-full bg-indigo-700 hover:bg-indigo-800 text-white py-3.5 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
                 >
@@ -452,7 +487,7 @@ export default function AboutUs() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">Have Question?</h2>
-              
+
               <div className="space-y-3">
                 {faqs.map((faq, index) => (
                   <button
@@ -461,10 +496,9 @@ export default function AboutUs() {
                     className="w-full flex items-center justify-between py-4 px-5 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-all text-left"
                   >
                     <span className="text-gray-700 font-medium">{faq}</span>
-                    <ChevronDown 
-                      className={`w-5 h-5 text-gray-400 transition-transform ${
-                        expandedFaq === index ? 'rotate-180' : ''
-                      }`}
+                    <ChevronDown
+                      className={`w-5 h-5 text-gray-400 transition-transform ${expandedFaq === index ? 'rotate-180' : ''
+                        }`}
                     />
                   </button>
                 ))}

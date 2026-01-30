@@ -207,7 +207,7 @@ export default function AboutUs() {
               {/* Image */}
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 <img
-                  src="/api/placeholder/600/400"
+                  src="/image11.svg"
                   alt="Team working"
                   className="w-full h-full object-cover"
                 />
@@ -239,7 +239,7 @@ export default function AboutUs() {
               {/* Image */}
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 <img
-                  src="/api/placeholder/600/400"
+                  src="/image12.svg"
                   alt="Our Mission"
                   className="w-full h-full object-cover"
                 />
